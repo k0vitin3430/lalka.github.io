@@ -1,0 +1,81 @@
+body{
+    background-image: url('../images/tlo3.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: serif;
+    text-align: center;
+    color: white;
+    line-height: 1.6;
+}
+
+main {
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 700px;
+    border-radius: 10px;
+}
+
+header p{
+    font-size: 100px;
+    margin: auto;
+    color: white;
+    font-family: serif;
+    text-align: center;
+    text-shadow: 0 0 20px rgb(0, 0, 0);
+}
+
+.blok{
+    background-color: rgba(245, 245, 220, 0.8);
+    width: 32%;
+    height: 300px;
+    position: relative;
+    text-align: center;
+    border-radius: 12px;
+    margin: 5px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    transition: all 1s ease;
+}
+
+.blok h1{
+    font-size: 85px;
+    background-color: transparent;
+    text-shadow: 0 0 20px rgb(0, 0, 0);
+    letter-spacing: 2px;
+}
+p{
+    text-align: justify;
+    background-color: transparent;
+    color: black;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+    color: black;
+}
+
+.blok:hover{
+    transform: scale(1.05);
+}
+
+a{
+    color: white;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+}
+h1 a{
+    font-size: 100px;
+}
+#bbb{
+    color: rgb(255, 252, 92);
+}

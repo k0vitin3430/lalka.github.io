@@ -1,0 +1,153 @@
+body{
+    background-image: url('../images/tlo3.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: serif;
+    text-align: center;
+    color: white;
+    line-height: 1.25;
+}
+
+main {
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    gap: 10px;
+    min-height: 700px;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    text-shadow: 0 0 10px black;
+    padding: 30px;
+}
+
+header p{
+    font-size: 100px;
+    margin: auto;
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 20px rgb(0, 0, 0);
+}
+main img{
+    width: 90px;
+}
+#blok1 {
+    background-color: rgba(222, 184, 135, 0.5);
+    height: 250px;
+    border-radius: 12px;
+    margin: 5px;
+    padding: 2px;
+    box-shadow: 0 0 20px black;
+    position: relative;
+    flex: 0 0 11%;
+    transition: all 0.5s ease;
+}
+#blok1 h1{
+    font-size: 20px;
+}
+
+.blok2 {
+    opacity: 0;
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    transition: opacity 0.5s ease;
+    font-size: 10px;
+    padding: 3px;
+}
+
+.blok2 p{
+text-align: justify;
+}
+
+#blok1:hover {
+    transform: scale(1.9);
+    height: 525px;
+    background-color: rgb(222, 184, 135);
+    z-index: 999;
+}
+
+#blok1:hover .normal_SW {
+    opacity: 0;
+}
+
+#blok1:hover .blok2 {
+    opacity: 1;
+}
+
+a{
+    color: white;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+#relacje {
+    flex: 0 0 50%;
+    order: -1;
+    height: 100px;
+    margin: 0 0 30px;
+    background-color: rgba(222, 184, 135, 0.5);
+    border-radius: 12px;
+    box-shadow: 0 0 20px black;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 0.5s ease;
+}
+
+#relacje h1 {
+    font-size: 30px;
+    letter-spacing: 6px;
+}
+
+.normal_relacje {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.relacje_2 {
+    opacity: 0;
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+    transition: opacity 0.5s ease;
+}
+
+.relacje_2 img {
+    width: min(90%, 800px);
+    max-height: 550px;
+    object-fit: contain;
+    filter: drop-shadow(0 5px 10px black);
+}
+
+#relacje:hover {
+    flex: 0 0 50%;
+    height: 600px;
+    transform: scale(1.02);
+    background: rgba(222, 184, 135, 0.95);
+    box-shadow: 0 15px 50px black;
+    z-index: 999;
+}
+
+#relacje:hover .normal_relacje {
+    opacity: 0;
+}
+
+#relacje:hover .relacje_2 {
+    opacity: 1;
+}
+
+#postacie {
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    gap: 10px;
+}

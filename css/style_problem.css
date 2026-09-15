@@ -1,0 +1,75 @@
+body{
+    background-image: url('../images/tlo3.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: serif;
+    text-align: center;
+    color: white;
+    line-height: 1.6;
+}
+
+h1{
+    text-align: center;
+}
+p span{
+    display: inline-block;
+    text-indent: 30px;
+}
+p{
+    text-indent: 30px;
+}
+
+main {
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    min-height: auto;
+    padding: 25px;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    text-shadow: 0 0 10px black;
+}
+
+header p{
+    font-size: 100px;
+    margin: auto;
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 20px rgb(0, 0, 0);
+}
+
+.lewa {
+    width: 47%;
+    height: auto;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bloki, .lista{
+    background-color: rgba(222, 184, 135, 0.5);
+    width: 95%;
+    height: auto;
+    border-radius: 12px;
+    margin: 5px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    position: relative;
+    text-align: justify;
+    flex: 0 0 47%;
+}
+.lista ul li{
+    text-align: left;
+    font-size: 20px;
+    margin-left: 20px;
+}
+a{
+    color: white;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+    text-decoration: none;
+}
